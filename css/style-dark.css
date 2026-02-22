@@ -1,0 +1,245 @@
+:root {
+  --dark-color1: #2d2b3e;
+  --dark-color2: #292738;
+  --dark-color3: #2b242b;
+  --dark-color4: #212529;
+}
+
+.bg-dark-1,
+body,
+.sticky-header.fixed-header,
+.page-wrapper,
+.header-style-one .main-box,
+.play-now .icon,
+.why-choose-us .image-column .inner-column .exp-box .images-box .icon,
+.mobile-menu .menu-box,
+.features-section-three {
+  background-color: var(--dark-color1);
+}
+
+.bg-dark-light {
+  background-color: var(--dark-color1);
+  opacity: 0.9;
+}
+
+.bg-dark-2,
+.header-style-two .header-lower .outer-box .btn-box,
+.country-block .inner-box,
+.contact-section,
+.process-block .inner-box .content,
+.process-block .inner-box:hover .content,
+.video-section .content-column .inner-column .blocks-box,
+.news-block .inner-box .content,
+.feature-block-four .inner-box,
+.service-block-two .inner-box .icon-box,
+.services-section-two:before,
+.accordion-box .block .acc-btn,
+.process-block-two.active .inner-box .content,
+.process-block-two .inner-box .icon,
+.process-block-two.active .inner-box .icon-box .icon-two,
+.project-block .inner-box .content,
+.contact-section-two .form-column .inner-column .contact-form .form-group input:not([type=submit]),
+.contact-section-two .form-column .inner-column .contact-form .form-group textarea,
+.testimonial-block-two .inner-box,
+.news-block-two .inner-box,
+.clients-section-two .bg,
+.about-section-three .content-column .inner-column .exp-box,
+.process-block-three .inner-box {
+  background-color: var(--dark-color2);
+}
+
+.process-block-three .inner-box:before,
+.process-block-three .inner-box:after {
+  border-right-color: var(--dark-color2);
+}
+
+.process-block-two.active .inner-box .content:before,
+.process-block .inner-box .content:before {
+  border-bottom-color: var(--dark-color2);
+}
+
+.bg-dark-3,
+.services-section-four:before,
+.service-block-four .content-box,
+.service-block-four .content-box-hover {
+  background-color: var(--dark-color3);
+}
+
+.bg-dark-4,
+.header-style-two .header-lower .logo-box:before,
+.about-section .content-column .inner-column .exp-box,
+.service-block .inner-box .content,
+.country-section .outer-box,
+.team-block .inner-box .content,
+.contact-form,
+.contact-form .form-group label,
+.process-block .inner-box .icon,
+.process-block .inner-box:hover .icon:after,
+.video-section .content-column .inner-column:before,
+.newsletter-form .form-group input:not([type=submit]),
+.newsletter-form .form-group textarea,
+.newsletter-form .form-group select,
+.mobile-menu .social-links,
+.hidden-bar .inner-box,
+.service-block-two .inner-box,
+.service-block-two .inner-box .icon-box .icon,
+.choose-block-two .inner-box,
+.choose-block-two .inner-box:hover .icon,
+.why-choose-us-two .image-column .inner-column .exp-box .images-box .icon,
+.accordion-box .block,
+.services-section-three,
+.marquee-two {
+  background-color: var(--dark-color4);
+}
+
+.header-style-two .header-lower .logo-box:after {
+  border-top-color: var(--dark-color4);
+}
+
+.subscribe-section .outer-box:before {
+  border-color: var(--dark-color4);
+}
+
+.btn-style-three {
+  background-color: #000;
+}
+
+.service-block .inner-box {
+  border-color: var(--dark-color1);
+}
+
+.main-menu .navigation > li > a,
+.main-menu .navigation > li.current > a,
+strong,
+.title a,
+.sec-title h2,
+.about-section .content-column .inner-column .exp-box .title,
+.choose-block .inner-box .content .title,
+.team-block .inner-box .content .name,
+.contact-form h3,
+.process-block .inner-box .content .title,
+.testimonial-block .inner-box .author-box .author-info .name,
+.testimonial-block .inner-box .author-box .rating-box .title,
+.feature-block-three .inner-box .title,
+.news-block .inner-box .content .read-more,
+.clients-section .title-outer .title,
+.mobile-menu .navigation li > a,
+.mobile-menu .navigation li.dropdown .dropdown-btn,
+.contact-list-one li .title,
+.mobile-menu .social-links li a,
+.hidden-bar .text-box .title,
+.hidden-bar .social-links li a,
+.feature-block-four .inner-box .content .title,
+.feature-block-four .inner-box .content .read-more,
+.about-block .inner-box .title,
+.about-section-two .content-column .inner-column .btn-box .title,
+.choose-block-two .inner-box .content .title,
+.accordion-box .block .acc-btn,
+.process-block-two .inner-box .content .title,
+.testimonial-block-two .inner-box .author-box .author-info .name,
+.ticker-section .expert-info-box .expert-text,
+.about-section-three .content-column .inner-column .contact-info .call-info a,
+.about-section-three .content-column .inner-column .exp-box .title,
+.marquee-two .text,
+.why-choose-us-three .content-column .list-style-two li,
+.process-block-three .inner-box .content .title {
+  color: var(--theme-color-light) !important;
+}
+
+.text-lights,
+p,
+.text,
+.list-style-two li,
+.testimonial-block .inner-box .text,
+.contact-list-one li .text,
+.contact-list-one li .text a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.bg-dark-text-light,
+.btn-style-one,
+.social-icon-two li a,
+.default-navs .owl-next,
+.default-navs .owl-prev,
+.news-block .inner-box .image-box .date span,
+.banner-carousel .owl-nav .owl-next,
+.banner-carousel .owl-nav .owl-prev,
+.default-navs-two .owl-next,
+.default-navs-two .owl-prev,
+.news-block-two .inner-box .image-box .date span {
+  background-color: var(--theme-color-dark);
+  color: var(--theme-color-light);
+}
+
+.why-choose-us .image-column .inner-column .exp-box:before,
+.main-slider .exp-box:before {
+  border-top-color: var(--theme-color-dark);
+}
+
+.range-slider-one .ui-widget-content .ui-state-default,
+.range-slider-one .ui-slider .ui-slider-range {
+  background-color: var(--theme-color-dark);
+}
+
+.about-block .inner-box {
+  background-color: transparent;
+}
+
+/*	Border Color */
+.border-color {
+  border-color: #2c2a2a;
+}
+
+.about-section-two .image-column .inner-column .image-2,
+.feature-block-four .inner-box .image-box .icon {
+  outline-color: #2c2a2a !important;
+}
+
+.why-choose-us-home1 .info-box:before {
+  border-top-color: #2c2a2a;
+}
+
+.bg-border-color,
+.team-block .inner-box:before {
+  background-color: #2c2a2a;
+}
+
+.bg-pattern-2,
+.features-section .icon-parachute,
+.why-choose-us-two .icon-dots-10,
+.why-choose-us-two .icon-plane-5,
+.why-choose-us-two .icon-line-5,
+.why-choose-us-two .icon-polish-2,
+.bg-pattern-6,
+.banner-section-two .icon-plane-s3 {
+  opacity: 0.2;
+}
+
+.bg-unset {
+  background-color: unset;
+}
+
+.counter-block .inner {
+  background-image: unset;
+}
+
+.banner-section .overlay-shape {
+  background-image: url(../images/banner/overlay-shape-dark.html);
+}
+
+.client-block .image,
+.marquee-two .image-1 {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+.clients-section .slide-item a:hover {
+  background-color: inherit;
+}
+
+.contact-form .form-group textarea {
+  background-color: #0a090f;
+}
+.contact-form .form-group input:not([type=submit]) {
+  background-color: #0a090f;
+}
